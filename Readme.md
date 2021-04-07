@@ -33,7 +33,7 @@ http://localhost:8080/swagger-ui.html
 The operations are:
 ```bash
 GET /products List all products (id,name)
-GET /product/{id} Obtain a single product (if does not exists, throws an exception)
+GET /product/{id} Obtain a single product (if does not exist, throws an exception)
 POST /products Creates a product (id,name)
 ``` 
 The system use "Basic Authentication" 
